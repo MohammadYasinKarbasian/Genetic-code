@@ -1,7 +1,7 @@
 # Genetic-code
 
 ## Introduction
-In this project, I use the A* algorithm to generate a genetic code that I want to reach the target genetic code by starting from a sequence of numbers 1 to n. In this project, we have a restriction that we can only generate this genetic code by swapping the position of code 1 with other codes under the following conditions (1 code is in the i index):
+In this project, I use the A* algorithm to generate a genetic code that I want to reach, by starting from a sequence of numbers 1 to n. In this project, we have a restriction that we can only generate this genetic code by swapping the position of code 1 with other codes under the following conditions (1 code is in the i index):
 <br>
 * If the remainder of i by 4 equals 0, then code number 1 can go to positions i-4, i+4, i-1, and i+1.
 * If the remainder of i by 4 equals 1, then code number 1 can Go to positions i-4, i+4, i-3, and i-1.
